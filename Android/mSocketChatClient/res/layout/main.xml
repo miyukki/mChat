@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:baselineAligned="true">
+        <TextView android:text="Nick:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+        <EditText android:id="@+id/uiNickFld" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:singleLine="true"></EditText>
+        <Button android:layout_height="wrap_content" android:text="Connect" android:layout_width="wrap_content" android:id="@+id/uiConnectBtn"></Button>
+    </TableRow>
+</TableLayout>
+<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@+id/uiMessageFld" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:singleLine="true"></EditText>
+        <Button android:layout_height="wrap_content" android:text="Send" android:layout_width="wrap_content" android:id="@+id/uiSendBtn"></Button>
+    </TableRow>
+</TableLayout>
+<TextView android:text="" android:id="@+id/uiLogTxt" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
