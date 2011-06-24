@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21925259139F9AE10006F949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21925258139F9AE10006F949 /* UIKit.framework */; };
+		2192525B139F9AE10006F949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2192525A139F9AE10006F949 /* Foundation.framework */; };
+		2192525D139F9AE10006F949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2192525C139F9AE10006F949 /* CoreGraphics.framework */; };
+		21925263139F9AE10006F949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21925261139F9AE10006F949 /* InfoPlist.strings */; };
+		21925266139F9AE10006F949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21925265139F9AE10006F949 /* main.m */; };
+		21925269139F9AE10006F949 /* mSocketChatClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21925268139F9AE10006F949 /* mSocketChatClientAppDelegate.m */; };
+		2192526C139F9AE10006F949 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2192526A139F9AE10006F949 /* MainWindow.xib */; };
+		2192526F139F9AE10006F949 /* mSocketChatClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2192526E139F9AE10006F949 /* mSocketChatClientViewController.m */; };
+		21925272139F9AE10006F949 /* mSocketChatClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21925270139F9AE10006F949 /* mSocketChatClientViewController.xib */; };
+		21925279139F9AE10006F949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21925258139F9AE10006F949 /* UIKit.framework */; };
+		2192527A139F9AE10006F949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2192525A139F9AE10006F949 /* Foundation.framework */; };
+		2192527B139F9AE10006F949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2192525C139F9AE10006F949 /* CoreGraphics.framework */; };
+		21925283139F9AE10006F949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21925281139F9AE10006F949 /* InfoPlist.strings */; };
+		21925286139F9AE10006F949 /* mSocketChatClientTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 21925285139F9AE10006F949 /* mSocketChatClientTests.h */; };
+		21925288139F9AE10006F949 /* mSocketChatClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21925287139F9AE10006F949 /* mSocketChatClientTests.m */; };
+		21948A0413A4B92B00042B04 /* msc 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21948A0313A4B92B00042B04 /* msc 2.png */; };
+		21948A0713A4B9DB00042B04 /* msc.png in Resources */ = {isa = PBXBuildFile; fileRef = 21948A0613A4B9DB00042B04 /* msc.png */; };
+		219A75C113AFEF9700C17269 /* NSStreamEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 219A75C013AFEF9700C17269 /* NSStreamEx.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2192527C139F9AE10006F949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2192524B139F9AE00006F949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21925253139F9AE10006F949;
+			remoteInfo = mSocketChatClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21925254139F9AE10006F949 /* mSocketChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mSocketChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21925258139F9AE10006F949 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2192525A139F9AE10006F949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2192525C139F9AE10006F949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21925260139F9AE10006F949 /* mSocketChatClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mSocketChatClient-Info.plist"; sourceTree = "<group>"; };
+		21925262139F9AE10006F949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21925264139F9AE10006F949 /* mSocketChatClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mSocketChatClient-Prefix.pch"; sourceTree = "<group>"; };
+		21925265139F9AE10006F949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21925267139F9AE10006F949 /* mSocketChatClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mSocketChatClientAppDelegate.h; sourceTree = "<group>"; };
+		21925268139F9AE10006F949 /* mSocketChatClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mSocketChatClientAppDelegate.m; sourceTree = "<group>"; };
+		2192526B139F9AE10006F949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2192526D139F9AE10006F949 /* mSocketChatClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mSocketChatClientViewController.h; sourceTree = "<group>"; };
+		2192526E139F9AE10006F949 /* mSocketChatClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mSocketChatClientViewController.m; sourceTree = "<group>"; };
+		21925271139F9AE10006F949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mSocketChatClientViewController.xib; sourceTree = "<group>"; };
+		21925278139F9AE10006F949 /* mSocketChatClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mSocketChatClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21925280139F9AE10006F949 /* mSocketChatClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mSocketChatClientTests-Info.plist"; sourceTree = "<group>"; };
+		21925282139F9AE10006F949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21925284139F9AE10006F949 /* mSocketChatClientTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mSocketChatClientTests-Prefix.pch"; sourceTree = "<group>"; };
+		21925285139F9AE10006F949 /* mSocketChatClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mSocketChatClientTests.h; sourceTree = "<group>"; };
+		21925287139F9AE10006F949 /* mSocketChatClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mSocketChatClientTests.m; sourceTree = "<group>"; };
+		21948A0313A4B92B00042B04 /* msc 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msc 2.png"; sourceTree = "<group>"; };
+		21948A0613A4B9DB00042B04 /* msc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msc.png; sourceTree = "<group>"; };
+		219A75BC13AFE9EE00C17269 /* NSStreamEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStreamEx.h; sourceTree = "<group>"; };
+		219A75C013AFEF9700C17269 /* NSStreamEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStreamEx.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21925251139F9AE10006F949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925259139F9AE10006F949 /* UIKit.framework in Frameworks */,
+				2192525B139F9AE10006F949 /* Foundation.framework in Frameworks */,
+				2192525D139F9AE10006F949 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21925274139F9AE10006F949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925279139F9AE10006F949 /* UIKit.framework in Frameworks */,
+				2192527A139F9AE10006F949 /* Foundation.framework in Frameworks */,
+				2192527B139F9AE10006F949 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21925249139F9AE00006F949 = {
+			isa = PBXGroup;
+			children = (
+				21948A0613A4B9DB00042B04 /* msc.png */,
+				21948A0313A4B92B00042B04 /* msc 2.png */,
+				2192525E139F9AE10006F949 /* mSocketChatClient */,
+				2192527E139F9AE10006F949 /* mSocketChatClientTests */,
+				21925257139F9AE10006F949 /* Frameworks */,
+				21925255139F9AE10006F949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21925255139F9AE10006F949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21925254139F9AE10006F949 /* mSocketChatClient.app */,
+				21925278139F9AE10006F949 /* mSocketChatClientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21925257139F9AE10006F949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21925258139F9AE10006F949 /* UIKit.framework */,
+				2192525A139F9AE10006F949 /* Foundation.framework */,
+				2192525C139F9AE10006F949 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2192525E139F9AE10006F949 /* mSocketChatClient */ = {
+			isa = PBXGroup;
+			children = (
+				21925267139F9AE10006F949 /* mSocketChatClientAppDelegate.h */,
+				21925268139F9AE10006F949 /* mSocketChatClientAppDelegate.m */,
+				2192526A139F9AE10006F949 /* MainWindow.xib */,
+				2192526D139F9AE10006F949 /* mSocketChatClientViewController.h */,
+				2192526E139F9AE10006F949 /* mSocketChatClientViewController.m */,
+				2192525F139F9AE10006F949 /* Supporting Files */,
+				21925270139F9AE10006F949 /* mSocketChatClientViewController.xib */,
+				219A75BC13AFE9EE00C17269 /* NSStreamEx.h */,
+				219A75C013AFEF9700C17269 /* NSStreamEx.m */,
+			);
+			path = mSocketChatClient;
+			sourceTree = "<group>";
+		};
+		2192525F139F9AE10006F949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21925260139F9AE10006F949 /* mSocketChatClient-Info.plist */,
+				21925261139F9AE10006F949 /* InfoPlist.strings */,
+				21925264139F9AE10006F949 /* mSocketChatClient-Prefix.pch */,
+				21925265139F9AE10006F949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2192527E139F9AE10006F949 /* mSocketChatClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				21925285139F9AE10006F949 /* mSocketChatClientTests.h */,
+				21925287139F9AE10006F949 /* mSocketChatClientTests.m */,
+				2192527F139F9AE10006F949 /* Supporting Files */,
+			);
+			path = mSocketChatClientTests;
+			sourceTree = "<group>";
+		};
+		2192527F139F9AE10006F949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21925280139F9AE10006F949 /* mSocketChatClientTests-Info.plist */,
+				21925281139F9AE10006F949 /* InfoPlist.strings */,
+				21925284139F9AE10006F949 /* mSocketChatClientTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21925253139F9AE10006F949 /* mSocketChatClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2192528B139F9AE10006F949 /* Build configuration list for PBXNativeTarget "mSocketChatClient" */;
+			buildPhases = (
+				21925250139F9AE10006F949 /* Sources */,
+				21925251139F9AE10006F949 /* Frameworks */,
+				21925252139F9AE10006F949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mSocketChatClient;
+			productName = mSocketChatClient;
+			productReference = 21925254139F9AE10006F949 /* mSocketChatClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21925277139F9AE10006F949 /* mSocketChatClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2192528E139F9AE10006F949 /* Build configuration list for PBXNativeTarget "mSocketChatClientTests" */;
+			buildPhases = (
+				21925273139F9AE10006F949 /* Sources */,
+				21925274139F9AE10006F949 /* Frameworks */,
+				21925275139F9AE10006F949 /* Resources */,
+				21925276139F9AE10006F949 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2192527D139F9AE10006F949 /* PBXTargetDependency */,
+			);
+			name = mSocketChatClientTests;
+			productName = mSocketChatClientTests;
+			productReference = 21925278139F9AE10006F949 /* mSocketChatClientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2192524B139F9AE00006F949 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2192524E139F9AE00006F949 /* Build configuration list for PBXProject "mSocketChatClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21925249139F9AE00006F949;
+			productRefGroup = 21925255139F9AE10006F949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21925253139F9AE10006F949 /* mSocketChatClient */,
+				21925277139F9AE10006F949 /* mSocketChatClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21925252139F9AE10006F949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925263139F9AE10006F949 /* InfoPlist.strings in Resources */,
+				2192526C139F9AE10006F949 /* MainWindow.xib in Resources */,
+				21925272139F9AE10006F949 /* mSocketChatClientViewController.xib in Resources */,
+				21948A0413A4B92B00042B04 /* msc 2.png in Resources */,
+				21948A0713A4B9DB00042B04 /* msc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21925275139F9AE10006F949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925283139F9AE10006F949 /* InfoPlist.strings in Resources */,
+				21925286139F9AE10006F949 /* mSocketChatClientTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21925276139F9AE10006F949 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21925250139F9AE10006F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925266139F9AE10006F949 /* main.m in Sources */,
+				21925269139F9AE10006F949 /* mSocketChatClientAppDelegate.m in Sources */,
+				2192526F139F9AE10006F949 /* mSocketChatClientViewController.m in Sources */,
+				219A75C113AFEF9700C17269 /* NSStreamEx.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21925273139F9AE10006F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21925288139F9AE10006F949 /* mSocketChatClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2192527D139F9AE10006F949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21925253139F9AE10006F949 /* mSocketChatClient */;
+			targetProxy = 2192527C139F9AE10006F949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21925261139F9AE10006F949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21925262139F9AE10006F949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2192526A139F9AE10006F949 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2192526B139F9AE10006F949 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		21925270139F9AE10006F949 /* mSocketChatClientViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21925271139F9AE10006F949 /* en */,
+			);
+			name = mSocketChatClientViewController.xib;
+			sourceTree = "<group>";
+		};
+		21925281139F9AE10006F949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21925282139F9AE10006F949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21925289139F9AE10006F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2192528A139F9AE10006F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2192528C139F9AE10006F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mSocketChatClient/mSocketChatClient-Prefix.pch";
+				INFOPLIST_FILE = "mSocketChatClient/mSocketChatClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2192528D139F9AE10006F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mSocketChatClient/mSocketChatClient-Prefix.pch";
+				INFOPLIST_FILE = "mSocketChatClient/mSocketChatClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2192528F139F9AE10006F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mSocketChatClient.app/mSocketChatClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mSocketChatClientTests/mSocketChatClientTests-Prefix.pch";
+				INFOPLIST_FILE = "mSocketChatClientTests/mSocketChatClientTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		21925290139F9AE10006F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mSocketChatClient.app/mSocketChatClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mSocketChatClientTests/mSocketChatClientTests-Prefix.pch";
+				INFOPLIST_FILE = "mSocketChatClientTests/mSocketChatClientTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2192524E139F9AE00006F949 /* Build configuration list for PBXProject "mSocketChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21925289139F9AE10006F949 /* Debug */,
+				2192528A139F9AE10006F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2192528B139F9AE10006F949 /* Build configuration list for PBXNativeTarget "mSocketChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2192528C139F9AE10006F949 /* Debug */,
+				2192528D139F9AE10006F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2192528E139F9AE10006F949 /* Build configuration list for PBXNativeTarget "mSocketChatClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2192528F139F9AE10006F949 /* Debug */,
+				21925290139F9AE10006F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2192524B139F9AE00006F949 /* Project object */;
+}
